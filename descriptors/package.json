@@ -26,6 +26,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "appveyor": "^0.4.0",
     "core-js": "^3.39.0"
   }
 }
