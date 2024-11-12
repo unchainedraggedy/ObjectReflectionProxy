@@ -5,9 +5,7 @@ test('orderByProps returns sorted properties', () => {
     name: 'мечник', health: 10, level: 2, attack: 80, defence: 40,
   };
   const order = ['name', 'level'];
-
   const result = orderByProps(obj, order);
-
   expect(result).toEqual([
     { key: 'name', value: 'мечник' },
     { key: 'level', value: 2 },
